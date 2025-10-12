@@ -30,3 +30,6 @@ Feature Selection methods are further divided into three sub-categories:
 |Filter Method|	Ranks features based on statistical scores (e.g., correlation or chi-square) and selects the highest-scoring ones, independent of the model.|	Chi-square test, ANOVA, Correlation Based Feature Selection|
 |Wrapper Method|	Uses a specific machine learning model to evaluate subsets of features. It trains and tests the model with different combinations.|	Forward Selection, Backward Elimination, RFE (Recursive Feature Elimination)|
 |Embedded Method|	Performs feature selection as part of the model training process itself.|	Regularization (Lasso, Ridge, ElasticNet), Tree Based Feature Importance |
+
+
+We will explore two algorithms in this module , PCA and t-sne .
