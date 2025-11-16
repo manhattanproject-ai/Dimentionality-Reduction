@@ -30,7 +30,7 @@ The core mechanism for finding the First Principal Component (PC1) is an iterati
 Sum of Squared Distances: The variance is calculated as the sum of the squared distances from all projected points to the center. Squaring the distances ensures that points far from the center contribute more heavily to the total variance, thus rewarding lines that
 capture a wide spread of data.
 
-$$\\text{Spread} = d_1^2 + d_2^2 + d_3^2 + \\cdots + d_n^2$$
+$$\text{Spread} = d_1^2 + d_2^2 + d_3^2 + \cdots + d_n^2$$
 ​
 #### Optimization: The algorithm iteratively adjusts the line's orientation to find the maximum possible sum of squared distances (maximum variance).
 * For a poor trial line, the sum of squared distances (variance) is low (e.g., 4.8).
