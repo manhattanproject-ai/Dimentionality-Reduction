@@ -6,7 +6,7 @@ The goal of t-SNE is to minimize this loss.
 ## The KL Loss Function in t-SNE 🧠
 The KL Loss function measures how badly the low-dimensional map (Q) represents the original high-dimensional data (P):
 
-$$\text{Cost} = \sum_{i} \sum_{j} p_{ij} \log \left(\frac{p_{ij}}{q_{ij}}\right)$$
+$$\\text{Cost} = \\sum_{i} \\sum_{j} p_{ij} \\log \\left(\\frac{p_{ij}}{q_{ij}}\\right)$$
 
 |Term	|Description	|Role in Minimization|
 |--------|---|---|
